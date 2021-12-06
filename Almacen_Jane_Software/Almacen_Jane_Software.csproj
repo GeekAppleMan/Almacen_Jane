@@ -94,6 +94,7 @@
     <Compile Include="FrmRestablecerContraseña.Designer.cs">
       <DependentUpon>FrmRestablecerContraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\Class1.cs" />
     <Compile Include="NewFolder1\Ejemplo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,6 +173,7 @@
     <None Include="Resources\Guardar.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Class2\" />
     <Folder Include="Class\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
